@@ -334,9 +334,6 @@ static struct sk_buff *gue_gro_receive(struct sock *sk,
 	struct gro_remcsum grc;
 	u8 proto;
 
-	if (!fou)
-		goto out;
-
 	skb_gro_remcsum_init(&grc);
 
 	if (!fou)
