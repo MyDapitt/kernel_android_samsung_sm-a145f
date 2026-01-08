@@ -24,4 +24,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Enforcing-NoSecurities
-        path: kernel_build/langsdorff*
+        path: kernel_build/germanium*
